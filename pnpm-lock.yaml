@@ -47,6 +47,9 @@ dependencies:
   '@dcloudio/uni-quickapp-webview':
     specifier: 3.0.0-alpha-3081220230802001
     version: 3.0.0-alpha-3081220230802001(postcss@8.4.28)(vue@3.3.4)
+  '@dcloudio/uni-ui':
+    specifier: ^1.4.28
+    version: 1.4.28
   pinia:
     specifier: 2.0.27
     version: 2.0.27(typescript@5.1.6)(vue@3.3.4)
@@ -116,8 +119,8 @@ devDependencies:
     specifier: ^13.0.3
     version: 13.0.4
   miniprogram-api-typings:
-    specifier: ^3.9.1
-    version: 3.9.1
+    specifier: ^3.12.0
+    version: 3.12.0
   prettier:
     specifier: ^2.7.1
     version: 2.8.0
@@ -1899,6 +1902,10 @@ packages:
       - supports-color
       - ts-node
       - vue
+    dev: false
+
+  /@dcloudio/uni-ui@1.4.28:
+    resolution: {integrity: sha512-e/lSbvR79KH9+d3D4ueNbvD6szigjO/5IyjBNmiTqaj0PTS324fBV3L6f3s1qpkYonM4rdOl000hVOcAg6Gh/A==}
     dev: false
 
   /@dcloudio/uni-vue-devtools@3.0.0-alpha-3080220230511001(postcss@8.4.28)(vue@3.3.4):
@@ -6274,8 +6281,8 @@ packages:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: false
 
-  /miniprogram-api-typings@3.9.1:
-    resolution: {integrity: sha512-oyratzOWyuFhBzONp06l0FBPu03ltCd1sRWoy2v38SnAKxtpZ8ySLTSEw//hIsBdocMda7fFZEjOG57L57mcUw==}
+  /miniprogram-api-typings@3.12.0:
+    resolution: {integrity: sha512-tE0zjq+3bFEgUROzCjXTdtLY+FmqiTX4kZWXc8bCC7M9wSHCriBz+ga1E2i1PcI+DQJoz2cyK8Cv2exJv6XEzA==}
     dev: true
 
   /mkdirp@0.5.6:
