@@ -4,6 +4,8 @@
 
 当前仓库为小兔鲜儿的**项目模板**。
 
+dist压缩文件里面的其中一个文件夹导入微信开发者工具就可运行体验小程序端
+
 ### 技术栈
 
 - 前端框架：[uni-app](https://uniapp.dcloud.net.cn/) (Vue3 + TS + Setup)
